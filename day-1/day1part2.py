@@ -1,4 +1,5 @@
 import re
+
 sum = 0
 nums = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 num_map = {
@@ -12,6 +13,7 @@ num_map = {
     'eight': 8,
     'nine': 9
 }
+
 if __name__ == "__main__":
     with open('input.txt', 'r') as f:
         for line in f:
