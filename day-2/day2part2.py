@@ -14,7 +14,6 @@ if __name__ == "__main__":
                     ball_cnt = int(ball.strip().split(" ")[0])
                     ball_type = ball.strip().split(" ")[1]
                     min_ball_cnt[ball_type] = max(min_ball_cnt[ball_type], ball_cnt)
-            print(min_ball_cnt)
             sum += (min_ball_cnt['red'] * min_ball_cnt['green'] * min_ball_cnt['blue'])
 
     print(sum)
