@@ -3,7 +3,6 @@ if __name__ == "__main__":
     with open('input.txt', 'r') as f:
         for line in f:
             sequence = [int(x) for x in line.split(' ')]
-            # print(sequence)
 
             sequences = [sequence]
             while not all(num == 0 for num in sequence):
